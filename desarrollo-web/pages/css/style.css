@@ -34,13 +34,28 @@ font-size: 25px;
 }
 .galeria img{
     width: 25%;
-    margin: 5px;
+    margin: 20px;
 }
 .formulario{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     color: white;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.contanos{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.enviar{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 .texto{
     padding-top: 30px;
 }
+
