@@ -1,0 +1,155 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80)
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.artistas {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.grande {
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.vidconf {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_padre {
+    display: grid;
+    grid-template-rows: 15vh 40vh 40vh 50vh;
+    grid-template-columns: 15vw 64vw 19, 5vw;
+
+    grid-template-areas:
+        "header header header header"
+        "main   main    main    main"
+        "main   main    main    main"
+        "footer footer footer footer "
+}
+.border {
+    border: 1px solid black;
+}
+publicidad {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    padding-top: 40px;
+    font-size: 10px;
+    grid-area: footer;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+nav {
+    grid-area: nav;
+}
+p {
+    color: white;
+    text-align: center;
+}
+
+.artistas {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.grande {
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.galeria {
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria img {
+    width: 25%;
+    margin: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.contanos {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.enviar {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    padding-top: 30px;
+}
+
+.hacer{
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+.hacer img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+justify-content: center;
+}
+.hacer h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.idea p{ 
+    padding-top: 100px;
+}
