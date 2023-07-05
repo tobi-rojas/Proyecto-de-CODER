@@ -146,15 +146,10 @@ p {
 justify-content: center;
 }
 .hacer h2{
-    padding-top: 10px;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-img:hover{
-    transform: scale(1.1);    
 }
 .idea p{ 
-    padding-top: 50px;
-}/*# sourceMappingURL=style.css.map */
+    padding-top: 100px;
+}
