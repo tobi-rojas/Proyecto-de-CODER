@@ -4,10 +4,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+@import 'ruta/al/archivo/animate.min.css';
+
 body {
     background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80)
 }
-
 h1 {
     display: flex;
     justify-content: center;
@@ -47,9 +48,11 @@ p {
         "main   main    main    main"
         "footer footer footer footer "
 }
+
 .border {
     border: 1px solid black;
 }
+
 publicidad {
     grid-area: aside;
 }
@@ -77,6 +80,7 @@ footer {
 nav {
     grid-area: nav;
 }
+
 p {
     color: white;
     text-align: center;
@@ -100,6 +104,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .galeria img {
     width: 25%;
     margin: 20px;
@@ -131,30 +136,34 @@ p {
     padding-top: 30px;
 }
 
-.hacer{
-    padding-top: 15px;
+.hacer {
+    padding-top: 60px;
     padding-right: 40px;
     padding-left: 40px;
     display: flex;
     flex-wrap: row;
     justify-content: space-around;
 }
-.hacer img{
+
+.hacer img {
     width: 300px;
     height: 200px;
     display: flex;
     justify-content: center;
 }
-.hacer h2{
+
+.hacer h2 {
     padding-top: 10px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-img:hover{
-    transform: scale(1.1);    
+
+img:hover {
+    transform: scale(1.1);
 }
-.idea p{ 
-    padding-top: 50px;
+
+.idea p {
+    padding-top: 80px;
 }
